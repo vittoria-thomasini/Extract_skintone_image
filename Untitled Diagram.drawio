@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-28T02:22:05.067Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="0NqIYMYLM57brQIf-8Sq" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-05T04:05:41.540Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Wc1vLhN-NWXKEevJITde" version="21.5.0" type="github">
   <diagram name="Page-1" id="Nu6TCX61glT7drE7bz35">
-    <mxGraphModel dx="1034" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1674" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,38 +22,44 @@
         <mxCell id="I9uFl2cCiCg_D7ChLjlu-4" value="Decisao" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="500" y="110" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="6RIXZbodaoMGD_x6Mzrq-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="I9uFl2cCiCg_D7ChLjlu-5" target="6RIXZbodaoMGD_x6Mzrq-1">
+        <mxCell id="6RIXZbodaoMGD_x6Mzrq-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="I9uFl2cCiCg_D7ChLjlu-5" target="6RIXZbodaoMGD_x6Mzrq-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="I9uFl2cCiCg_D7ChLjlu-5" value="Identificar Face" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6RIXZbodaoMGD_x6Mzrq-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6RIXZbodaoMGD_x6Mzrq-1" target="6RIXZbodaoMGD_x6Mzrq-2">
+        <mxCell id="6RIXZbodaoMGD_x6Mzrq-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="6RIXZbodaoMGD_x6Mzrq-1" target="6RIXZbodaoMGD_x6Mzrq-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6RIXZbodaoMGD_x6Mzrq-1" value="Recortar Imagem Identificada" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6RIXZbodaoMGD_x6Mzrq-1" value="Recortar Imagem Identificada" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="270" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6RIXZbodaoMGD_x6Mzrq-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6RIXZbodaoMGD_x6Mzrq-2" target="6RIXZbodaoMGD_x6Mzrq-4">
+        <mxCell id="6RIXZbodaoMGD_x6Mzrq-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="6RIXZbodaoMGD_x6Mzrq-2" target="6RIXZbodaoMGD_x6Mzrq-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6RIXZbodaoMGD_x6Mzrq-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6RIXZbodaoMGD_x6Mzrq-2" target="6RIXZbodaoMGD_x6Mzrq-4">
+        <mxCell id="6RIXZbodaoMGD_x6Mzrq-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="6RIXZbodaoMGD_x6Mzrq-2" target="6RIXZbodaoMGD_x6Mzrq-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6RIXZbodaoMGD_x6Mzrq-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6RIXZbodaoMGD_x6Mzrq-2" target="6RIXZbodaoMGD_x6Mzrq-4">
+        <mxCell id="6RIXZbodaoMGD_x6Mzrq-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="6RIXZbodaoMGD_x6Mzrq-2" target="6RIXZbodaoMGD_x6Mzrq-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6RIXZbodaoMGD_x6Mzrq-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6RIXZbodaoMGD_x6Mzrq-2" target="6RIXZbodaoMGD_x6Mzrq-3">
+        <mxCell id="6RIXZbodaoMGD_x6Mzrq-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="6RIXZbodaoMGD_x6Mzrq-2" target="6RIXZbodaoMGD_x6Mzrq-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6RIXZbodaoMGD_x6Mzrq-2" value="Segmentação de Pele" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6RIXZbodaoMGD_x6Mzrq-2" value="Segmentação de Pele" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="270" y="255" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6RIXZbodaoMGD_x6Mzrq-3" value="Região de Pele" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="6RIXZbodaoMGD_x6Mzrq-3" value="Região de Pele" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="365" y="350" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6RIXZbodaoMGD_x6Mzrq-4" value="Região Sem Pele" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="6RIXZbodaoMGD_x6Mzrq-4" value="Região Sem Pele" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="240" y="350" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JJ5FJ9lUz9bUR3wlZYiz-1" value="&lt;h1&gt;Coletar uma base de dados de imagens de pele&amp;nbsp; com variedade de pessoas e variações de luz.&lt;br&gt;&lt;br&gt;Escolher um sistema de cor&lt;br&gt;Aprender os parametros de classificacao de pele&lt;br&gt;&lt;br&gt;treinar um detector de pele requer:&lt;br&gt;converter imagens e um mesmo sistema de cor&amp;nbsp;&lt;br&gt;classificar cada pixel como pele e nao pele&amp;nbsp;&lt;br&gt;&lt;br&gt;necessario pós processamento para detectar sempre nas mesmas regioes&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="870" y="30" width="450" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="JJ5FJ9lUz9bUR3wlZYiz-2" value="&lt;h1&gt;A given pixel is classified and labeled whether it&lt;br/&gt;is a skin or a non-skin given a model of the skin color cluster in a given color space. In the context&lt;br/&gt;of skin classification, true positives are skin pixels that the classifier correctly labels as skin. True&lt;br/&gt;negatives are non-skin pixels that the classifier correctly labels as non-skin.&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="870" y="530" width="480" height="380" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
