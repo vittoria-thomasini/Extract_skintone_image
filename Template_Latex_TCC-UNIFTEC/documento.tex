@@ -1,0 +1,162 @@
+\input{configuracoes}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%          Configuracoes do ueceTeX2              %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Opcoes disponiveis
+
+\trabalhoacademico{tccgraduacao}
+%\trabalhoacademico{tccespecializacao}
+%\trabalhoacademico{dissertacao}
+%\trabalhoacademico{tese}
+
+% Define se o trabalho eh uma qualificação
+% Coloque 'nao' para versão final do trabalho
+
+\ehqualificacao{nao}
+
+% Remove as bordas vermelhas e verdes do PDF gerado
+% Coloque 'sim' pare remover
+
+\removerbordasdohyperlink{sim} 
+
+% Adiciona a cor Azul a todos os hyperlinks
+
+\cordohyperlink{nao}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%          Informação sobre a IES                 %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ies{Centro Universitário Uniftec}
+\iessigla{Uniftec}
+\centro{Centro Universitário Uniftec}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%        Informação para TCC de Graduação         %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\graduacaoem{Engenharia de Computação}
+% Pode colocar também 'licenciada'
+\habilitacao{bacharel}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%     Informação para TCC de Especialização       %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\especializacaoem{Alfabetização de Crianças}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%         Informação para Dissertação             %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\programamestrado{Programa de Pós-Graduação em Ciência da Computação}
+\nomedomestrado{Mestrado Acadêmico em Ciência da Computação}
+\mestreem{Ciência da Computação}
+\areadeconcentracaomestrado{Ciência da Computação}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%               Informação para Tese              %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\programadoutorado{Programa de Pós-Graduação em Saúde Coletiva}
+\nomedodoutorado{Doutorado em Saúde Coletiva}
+\doutorem{Saúde Coletiva}
+\areadeconcentracaodoutorado{Saúde Coletiva}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%  Informação relacionadas ao trabalho     %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\autor{Vittoria Luiza da Silveira Thomasini}
+
+\titulo{Identificação de Tom de Pele utilizando Inteligência Artificial para promover Diversidade e Inclusão na Indústria de Beleza} 
+
+\data{2023}
+\local{Caxias do Sul}
+
+% Exemplo: \dataaprovacao{01 de Janeiro de 2012}
+\dataaprovacao{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%     Informação sobre o Orientador       %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\orientador{João Luis Tavares}
+\orientadories{Centro Universitário Uniftec – Uniftec}
+\orientadorcentro{Centro Universitário Uniftec – Uniftec}
+\orientadorfeminino{nao} % Coloque 'sim' se for do sexo feminino
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%      Informação sobre o Co-orientador   %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Deixe o nome do coorientador em branco para remover do documento
+\coorientador{}
+\coorientadories{Universidade Co-orientador - SIGLA}
+\coorientadorcentro{Centro do Co-orientador - SIGLA}
+\coorientadorfeminino{nao} % Coloque 'sim' se for do sexo feminino
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%      Informação sobre a banca           %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Atenção! Deixe o nome do membro da banca para remover da folha de aprovação
+
+% Exemplo de uso:
+% \membrodabancadois{Prof. Dr. Fulano de Tal}
+% \membrodabancadoisies{Universidade Estadual do Ceará - UECE}
+
+\membrodabancadois{Membro da Banca Dois}
+\membrodabancadoiscentro{Centro do Membro da Banca Dois - SIGLA}
+\membrodabancadoisies{Universidade do Membro da Banca Dois - SIGLA}
+\membrodabancatres{Membro da Banca Tres - SIGLA}
+\membrodabancatrescentro{Centro do Membro da Banca Tres - SIGLA}
+\membrodabancatresies{Universidade do Membro da Banca Três - SIGLA}
+\membrodabancaquatro{Membro da Banca Quatro - SIGLA}
+\membrodabancaquatrocentro{Centro do Membro da Banca Quatro - SIGLA}
+\membrodabancaquatroies{Universidade do Membro da Banca Quatro - SIGLA}
+\membrodabancacinco{Membro da Banca Cinco}
+\membrodabancacincocentro{Teste}
+\membrodabancacincoies{Universidade do Membro da Banca Cinco - SIGLA}
+\membrodabancaseis{Membro da Banca Seis}
+\membrodabancaseiscentro{}
+\membrodabancaseisies{Universidade do Membro da Banca Seis - SIGLA}
+
+\begin{document}
+    % Elementos pré-textuais
+    \pretextual
+	\imprimircapa
+	\imprimirfolhaderosto{}
+%%	\imprimirfichacatalografica{elementos-pre-textuais/ficha-catalografica}
+%%	\imprimirerrata{elementos-pre-textuais/errata}
+	\imprimirfolhadeaprovacao
+%%	\imprimirdedicatoria{elementos-pre-textuais/dedicatoria}
+%%	\imprimiragradecimentos{elementos-pre-textuais/agradecimentos}
+%%	\imprimirepigrafe{elementos-pre-textuais/epigrafe}
+	\imprimirresumo{elementos-pre-textuais/resumo}
+	\imprimirabstract{elementos-pre-textuais/abstract}
+	\imprimirlistadeilustracoes
+	\imprimirlistadetabelas
+	\imprimirlistadequadros
+	\imprimirlistadealgoritmos
+%%	\imprimirlistadecodigosfonte
+	\imprimirlistadeabreviaturasesiglas
+	\imprimirlistadesimbolos{elementos-pre-textuais/lista-de-simbolos}   
+	\imprimirsumario
+
+    % Elementos textuais	
+    \textual
+    \input{elementos-textuais/introducao}
+    \input{elementos-textuais/objetivos}
+    \input{elementos-textuais/fundamentacao-teorica}
+    \input{elementos-textuais/metodologia}
+	\input{elementos-textuais/trabalhos-relacionados}
+	\input{elementos-textuais/desenvolvimento}
+	\input{elementos-textuais/experimentos-resultados.tex}
+	\input{elementos-textuais/conclusao}
+	%\input{elementos-textuais/teste.tex}
+    %Elementos pós-textuais
+    
+    \postextual %
+    \bibliography{elementos-pos-textuais/referencias}
+%%    \imprimirglossario	
+\end{document}
+
+
