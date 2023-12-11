@@ -58,6 +58,7 @@ Image result on HSV
 ![image](https://github.com/vittoria-thomasini/Extract_skintone_image/assets/53311902/a3ce7100-1041-4a13-9323-384875cff595)
 
 Image thresholding
+
 ![image](https://github.com/vittoria-thomasini/Extract_skintone_image/assets/53311902/62d5950d-17bd-417d-8469-8e02bf094604)
 
 Color Bar:
